@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pg (1.2.2)
+    sequel (5.29.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pg (~> 1.2)
+  sequel (~> 5.29)
+
+BUNDLED WITH
+   2.1.4
