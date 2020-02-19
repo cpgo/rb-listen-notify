@@ -1,5 +1,8 @@
 require 'sequel'
-DB = Sequel.connect('postgres://postgres:postgres@localhost:5432/db_notify') # requires pg
+$stdout.sync = true
+puts "Waiting for pg"
+sleep 2 # hack to wait for pg container
+DB = Sequel.connect('postgres://postgres:postgres@postgres:5432/postgres') # requires pg
 
 DB.drop_table?(:items)
 
