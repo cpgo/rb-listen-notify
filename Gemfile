@@ -11,3 +11,5 @@ gem "sequel", "~> 5.29"
 gem "pg", "~> 1.2"
 
 gem "rubocop", "~> 1.14"
+
+gem "pronto", "~> 0.11.0"
